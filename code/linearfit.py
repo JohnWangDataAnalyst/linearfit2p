@@ -5,6 +5,8 @@ Authors: Zheng Wang
 input: emp sc emp fc
 outputs: sim fc and esc(fitted)
 """
+import numpy as np
+from scipy.optimize import fsolve
 
 ### Linear Model fitting based on relatioship SC FC and Q
 
